@@ -23,3 +23,5 @@ forEach(['a', 'b', 'c'], console.log);
 <hr>
 
 Your explanation here...
+
+When the code is executed, `a`, `b`, and `c` will get logged to the console. The `forEach` function gets declared with two parameters, `arr` and `action`. Within the function the `arr` arguments get iterated over and the `action` argument gets invoked during each iteration of the loop. The `forEach` function gets invoked with `['a', 'b', 'c']` and `console.log` as arguments. The `forEach` function will loop through `['a', 'b', 'c']` and invoke the `console.log` function on each element.
